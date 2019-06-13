@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: iMinister
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://127.0.0.1:6000/iminister
+    username: postgres
+    password: 123
+server:
+  port: 9000
